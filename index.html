@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+		integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+		crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/index.css">
+	<title>Fun Foodies</title>
+</head>
+
+<body>
+	<span id="order">
+		as <button onclick="Close()">close</button>
+	</span>
+	<header id="header" class="header">
+		<div class="centerDiv">
+			<div class="logo">FUN FOODIES</div>
+			<div class="navbar">
+				<li class="menus"><a href="#home">Home</a></li>
+				<li class="menus"><a href="#about">About</a></li>
+				<li class="menus"><a href="#menu">Menu</a></li>
+				<li class="menus"><a href="#gallery">Gallery</a></li>
+				<li class="menus"><a href="#contact">Contact</a></li>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<section id="home" class="home">
+			<div>
+				<h1>FUN FOODIES</h1>
+				<p>Always delivering amazing experiance. </p>
+				<button><a href="#menu">OUR MENUS</a></button>
+			</div>
+		</section>
+		<section id="about" class="about">
+			<div class="innerAboutDiv">
+				<div class="aboutDetail">
+					<h6>READ OUR STORY >>>></h6>
+					<h1>We've been Making The Delicious Foods Since 2022.</h1>
+					<p>Welcome to Fun Foodies Restaurant! After a year in business, we still serve the best indian food the our area. Peking specializes in authentic indian.</p>
+					<p>
+						Fun Foodies blends contemporary elegance and comfort with innovative cuisine and excellent service. The original menu and unique decor make Fun Foodies an ideal setting for business meetings, romantic evenings, or a night out with friends.
+					</p>
+					<p>A meal at Fun Foodies is one you won't soon forget and value you won’t believe.In our restaurant, you can try quality dishes cooked by the owner and his team. ... The restaurant menu with 6 dishes, plus the specialities of the house.</p>
+				</div>
+				<div id="aboutImg">
+					<img src="./images/about-img.jpg" alt="About Us">
+				</div>
+			</div>
+		</section>
+		<section id="menu" class="menu">
+			<div class="menuHeader">
+				<h1>MENUS</h1>
+				<div class="hr"></div>
+			</div>
+			<div class="menusDiv">
+				<div class="dish">
+					<div class="dishes"><img src="./images/dish1.jpg" alt="dish1" /></div>
+					<div class="dishDetails">
+						<div>
+							<h3>Flank Steak</h3>
+							<p>$35</p>
+						</div>
+						<div>
+							<button onclick="orderNow()">ORDER NOW</button>
+						</div>
+					</div>
+				</div>
+				<div class="dish">
+					<div class="dishes"><img src="./images/dish2.jpg" alt="dish2" /></div>
+					<div class="dishDetails">
+						<div>
+							<h3>Flank Steak</h3>
+							<p>$35</p>
+						</div>
+						<div>
+							<button>ORDER NOW</button>
+						</div>
+					</div>
+				</div>
+				<div class="dish">
+					<div class="dishes"><img src="./images/dish3.jpg" alt="dish3" /></div>
+					<div class="dishDetails">
+						<div>
+							<h3>Flank Steak</h3>
+							<p>$35</p>
+						</div>
+						<div>
+							<button>ORDER NOW</button>
+						</div>
+					</div>
+				</div>
+				<div class="dish">
+					<div class="dishes"><img src="./images/dish4.jpg" alt="dish4" /></div>
+					<div class="dishDetails">
+						<div>
+							<h3>Flank Steak</h3>
+							<p>$35</p>
+						</div>
+						<div>
+							<button>ORDER NOW</button>
+						</div>
+					</div>
+				</div>
+				<div class="dish">
+					<div class="dishes"><img src="./images/dish5.jpg" alt="dish5" /></div>
+					<div class="dishDetails">
+						<div>
+							<h3>Flank Steak</h3>
+							<p>$35</p>
+						</div>
+						<div>
+							<button>ORDER NOW</button>
+						</div>
+					</div>
+				</div>
+				<div class="dish">
+					<div class="dishes"><img src="./images/dish6.jpg" alt="dish6" /></div>
+					<div class="dishDetails">
+						<div>
+							<h3>Flank Steak</h3>
+							<p>$35</p>
+						</div>
+						<div>
+							<button>ORDER NOW</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="gallery" class="gallery">
+			<div class="galleryHeader">
+				<h1>OUR GALLERY</h1>
+				<hr>
+			</div>
+			<div class="items">
+				<div class="item">
+					<div class="itemImg">
+						<img src="./images/galleryImg1.jpg" alt="img1">
+					</div>
+					<div class="itemContent">
+						<div class="itemContentWrap">
+							<p>RESTORENT GALLERY</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="itemImg">
+						<img src="./images/galleryImg2.jpg" alt="img1">
+					</div>
+					<div class="itemContent">
+						<div class="itemContentWrap">
+							<p>RESTORENT GALLERY</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="itemImg">
+						<img src="./images/galleryImg3.jpg" alt="img1">
+					</div>
+					<div class="itemContent">
+						<div class="itemContentWrap">
+							<p>RESTORENT GALLERY</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="itemImg">
+						<img src="./images/galleryImg4.jpg" alt="img1">
+					</div>
+					<div class="itemContent">
+						<div class="itemContentWrap">
+							<p>RESTORENT GALLERY</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="itemImg">
+						<img src="./images/galleryImg5.jpg" alt="img1">
+					</div>
+					<div class="itemContent">
+						<div class="itemContentWrap">
+							<p>RESTORENT GALLERY</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="itemImg">
+						<img src="./images/galleryImg6.jpg" alt="img1">
+					</div>
+					<div class="itemContent">
+						<div class="itemContentWrap">
+							<p>RESTORENT GALLERY</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="itemImg">
+						<img src="./images/galleryImg7.jpg" alt="img1">
+					</div>
+					<div class="itemContent">
+						<div class="itemContentWrap">
+							<p>RESTORENT GALLERY</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="itemImg">
+						<img src="./images/galleryImg8.jpg" alt="img1">
+					</div>
+					<div class="itemContent">
+						<div class="itemContentWrap">
+							<p>RESTORENT GALLERY</p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<div class="itemImg">
+						<img src="./images/galleryImg9.jpg" alt="img1">
+					</div>
+					<div class="itemContent">
+						<div class="itemContentWrap">
+							<p>RESTORENT GALLERY</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact" class="contact">
+			<div class="contactHeader">
+				<h1>CONTACT US</h1>
+				<div class="hr"></div>
+			</div>
+			<div class="contactDiv">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.3436334022254!2d72.75574391477062!3d23.084513284921783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e7c2b15555555%3A0xdc99cfcdd6e71338!2sHgce%20Vahelal!5e0!3m2!1sen!2sin!4v1656303097564!5m2!1sen!2sin"
+					width="50%" height="400px" style="border:0;" allowfullscreen="" loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"></iframe>
+				<div class="contactFormDiv">
+					<form action="" name="contactForm" class="contactForm">
+						<div class="nameInputs">
+							<div>
+								<input type="text" name="firstName" id="firstName" required>
+								<label for="firstName">First Name</label>
+							</div>
+							<div>
+								<input type="text" name="lastName" id="lastName" required>
+								<label for="lastName">Last Name</label>
+							</div>
+						</div>
+						<div class="subjectInput">
+							<input type="text" name="subject" id="subject" required>
+							<label for="subject">Subject</label>
+						</div>
+						<div class="messageInput">
+							<label for="message">Message</label>
+							<textarea name="message" id="message" cols="30" rows="5"></textarea>
+						</div>
+						<div class="button">
+							<input type="submit" value="Submit">
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+	<footer id="footer" class="footer">
+		<div class="footerContent">
+			<div class="footerContentDiv1">
+				<h3>Book a Table</h3>
+				<p>funfoodies@book.com</p>
+				<h3>or</h3>
+				<p>+91 9900990099</p>
+			</div>
+			<hr>
+			<div class="footerContentDiv2">
+				<div class="innerFooterContentDiv2">
+					<div>
+						<h1>Fun Foodies</h1>
+					</div>
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+					<p id="copyrightLine">&copy2022 All rights reserved, Design by Chiragsinh Chavda.</p>
+				</div>
+				<div class="innerFooterContentDiv2">
+					<div>
+						<h1>Contact</h1>
+					</div>
+					<div id="footerContactDetailDiv">
+						<i class="fa-solid fa-phone"></i>
+						<span>
+							+91 9922336655
+						</span>
+					</div>
+					<div id="footerContactDetailDiv">
+						<i class="fa-solid fa-envelope"></i>
+						<span>
+							funfoodies@book.com
+						</span>
+					</div>
+					<div id="footerContactDetailDiv">
+						<i class="fa-solid fa-location-dot"></i>
+						<span>
+							121 king street, Ahmedabad, Gujarat
+						</span>
+					</div>
+				</div>
+				<div class="innerFooterContentDiv2">
+					<div id="footerOpeningHeader">
+						<h1>Opening</h1>
+					</div>
+					<div id="footerOpeningHourDiv">
+						<h4>Monday - Sunday</h4>
+						<span>09 AM - 11 PM</span>
+					</div>
+				</div>
+			</div>
+			<hr>
+			<div class="footerContentDiv3">
+				<div class="innerFooterContentDiv3">
+					<div class="footerBottomPara widthSame">
+						<p>&copy2022 All rights reserved, Design & Developed by Chiragsinh Chavda</p>
+					</div>
+					<div class="socialIcons widthSame">
+						<a href="/"><i class="fa-brands fa-facebook"></a></i>
+						<a href="/"><i class="fa-brands fa-instagram"></a></i>
+						<a href="/"><i class="fa-brands fa-whatsapp"></a></i>
+					</div>
+					<div class="termsPolicyDiv widthSame">
+						<a href="/"><span>Terms & Condition</span></a>
+						<a href="/"><span>Privacy Policy</span></a>
+						<a href="/"><span>Help Center</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,666 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+html {
+	scroll-behavior: smooth;
+	font-family: 'Architects Daughter', cursive;
+}
+
+body::-webkit-scrollbar {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+#order {
+	width: 25%;
+	height: 100vh;
+	display: none;
+	background-color: #fff;
+	border: 1px solid black;
+	position: fixed;
+	right: 0px;
+	top: 60px;
+	z-index: 1;
+}
+
+.header {
+	position: fixed;
+	top: 0px;
+	background-color: white;
+	font-family: 'Splash', cursive;
+	width: 100%;
+	height: auto;
+	z-index: 1;
+	border-bottom: 2px solid black;
+}
+
+.centerDiv {
+	width: 70%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.menus {
+	font-size: 20px;
+	list-style: none;
+	padding: 15px;
+	cursor: pointer;
+}
+
+.logo {
+	font-size: 25px;
+	padding: 15px 0px;
+	cursor: pointer;
+	font-family: 'Rubik Moonrocks', cursive;
+}
+
+.menus a {
+	padding-bottom: 5px;
+}
+
+.menus a:hover {
+	border-bottom: 3px solid black;
+}
+
+.home {
+	height: 100vh;
+	width: 100%;
+	padding-top: 50px;
+	background-image: url('../images/bgSlide4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	align-items: center;
+}
+
+.home div {
+	text-align: center;
+	width: 50%;
+	height: 35%;
+	background: #a0a2a400;
+	margin: auto;
+	box-shadow: 0px 0px 10px 0px;
+}
+
+.home div h1 {
+	font-family: 'Rubik Moonrocks', cursive;
+	color: #000;
+	font-size: 80px;
+}
+
+.home div button {
+	font-family: 'Bungee', cursive;
+	cursor: pointer;
+	padding: 2px 30px;
+	font-size: 20px;
+	margin-top: 20px;
+	border: none;
+	background: #e2983fb0;
+}
+
+.about {
+	height: auto;
+	width: 100%;
+	padding-top: 70px;
+}
+
+.innerAboutDiv {
+	padding: 70px;
+	width: 80%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: auto;
+}
+
+.aboutDetail {
+	width: 50%;
+}
+
+.aboutDetail h6 {
+	font-family: 'Architects Daughter', cursive;
+	color: #615f5f;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+.aboutDetail p {
+	font-family: 'Architects Daughter', cursive;
+	padding: 10px 0px;
+	font-size: 14px;
+}
+
+.aboutDetail h1 {
+	font-family: 'Architects Daughter', cursive;
+	font-size: 31px;
+	width: 90%;
+}
+
+#aboutImg {
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+#aboutImg img {
+	box-shadow: 0px 0px 10px 1px #ababab;
+}
+
+.innerAboutDiv div img {
+	width: 70%;
+}
+
+/*menu section css starts*/
+
+.menu {
+	font-family: 'Architects Daughter', cursive;
+	height: auto;
+	width: 100%;
+	text-align: center;
+	padding: 20px 0px;
+	background: #070707;
+	color: #ffffff;
+}
+
+.menuHeader {
+	padding: 35px 0px;
+}
+
+.menuHeader h1 {
+	font-size: 35px;
+	padding-bottom: 10px;
+	font-weight: 100;
+}
+
+.menuHeader .hr {
+	width: 5%;
+	height: 2px;
+	background-color: #ffffff;
+	;
+	margin: auto;
+}
+
+.menusDiv {
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.dishes {
+	width: auto;
+}
+
+.dishes img {
+	width: 380px;
+	height: 275px;
+	margin: 10px;
+}
+
+.dishDetails {
+	padding: 0px 16px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.dishDetails button {
+	padding: 15px 10px;
+	background-color: #ffffff;
+	font-family: 'Architects Daughter', cursive;
+	border: 0px;
+	color: rgb(0, 0, 0);
+	cursor: pointer;
+}
+
+.dishDetails p {
+	font-size: 20px;
+	text-align: left;
+}
+
+.gallery {
+	font-family: 'Architects Daughter', cursive;
+	width: 80%;
+	margin: auto;
+	padding: 60px 0px;
+}
+
+.galleryHeader {
+	text-align: center;
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+
+.galleryHeader hr {
+	width: 5%;
+	height: 2px;
+	background-color: rgb(0, 0, 0);
+	margin: auto;
+	margin-top: 11px;
+}
+
+.galleryHeader h1 {
+	font-weight: 100;
+	font-size: 30px;
+}
+
+.galleryHeader p {
+	margin-top: 20px;
+	font-size: 17px;
+}
+
+.items {
+	padding-top: 20px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.item {
+	position: relative;
+	overflow: hidden;
+	margin-right: 10px;
+	margin-top: 10px;
+	box-shadow: 0px 0px 15px 3px #000000;
+}
+
+.item:hover .itemContent {
+	opacity: 1;
+}
+
+.item:hover .itemImg {
+	transform: scale(1.2);
+}
+
+.itemImg {
+	height: auto;
+	display: block;
+	transition: 0.7s;
+}
+
+.itemImg::before {
+	content: "";
+	display: block;
+	padding-top: 75%;
+	overflow: hidden;
+}
+
+.itemImg img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	line-height: 0;
+}
+
+.itemContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	text-align: center;
+	z-index: 0;
+	color: #fff;
+	transition: 0.5s;
+}
+
+.itemContentWrap {
+	position: absolute;
+	width: 100%;
+	height: 100px;
+	bottom: 0px;
+	color: white;
+	opacity: 0.8;
+	background-color: #000000;
+}
+
+.itemContentWrap p {
+	padding-top: 40px;
+	text-transform: uppercase;
+	font-size: 1.2rem;
+	opacity: 1;
+	margin: 0;
+}
+
+/*contact section css starts*/
+
+.contact {
+	font-family: 'Architects Daughter', cursive;
+	height: auto;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.contact .hr {
+	width: 5%;
+	height: 2px;
+	background-color: #000000;
+	margin: auto;
+}
+
+.contactHeader {
+	text-align: center;
+	padding: 35px 0px;
+}
+
+.contactHeader h1 {
+	font-size: 35px;
+	padding-bottom: 10px;
+	font-weight: 100;
+}
+
+.contactDiv {
+	width: 80%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contactDiv2 {
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
+}
+
+.contactIcons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 25%;
+	height: 190px;
+	background-color: #1c2034;
+	color: white;
+	margin: 10px;
+	justify-content: center;
+}
+
+.contactIcons i {
+	color: #a6191f;
+}
+
+.contactIcons h4 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.contactFormDiv {
+	width: 50%;
+	height: 525px;
+}
+
+.contactForm {
+	background-color: #ffffff;
+	padding: 70px;
+}
+
+.nameInputs {
+	display: flex;
+}
+
+.nameInputs div {
+	position: relative;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 0px;
+}
+
+.nameInputs input {
+	height: 30px;
+	width: 97%;
+	border-bottom: 1px solid black;
+	border-top: none;
+	outline: none;
+	font-family: 'Architects Daughter', cursive;
+	border-right: none;
+	border-left: none;
+}
+
+.nameInputs input:focus+label span,
+.nameInputs input:valid+label span {
+	transform: translateY(-30px);
+}
+
+.nameInputs div label {
+	position: absolute;
+	top: 25px;
+	left: 0;
+	color: black;
+	font-size: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.nameInputs div label span {
+	display: inline-block;
+	font-size: 16px;
+	min-width: 5px;
+	transition: 0.1s ease;
+}
+
+.subjectInput {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	padding: 20px 0px;
+}
+
+.subjectInput input {
+	height: 30px;
+	border-bottom: 1px solid black;
+	border-top: none;
+	outline: none;
+	font-family: 'Architects Daughter', cursive;
+	border-right: none;
+	border-left: none;
+}
+
+.subjectInput label {
+	position: absolute;
+	top: 25px;
+	left: 0;
+	color: black;
+	font-size: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.subjectInput label span {
+	display: inline-block;
+	font-size: 16px;
+	min-width: 5px;
+	transition: 0.1s ease;
+}
+
+.subjectInput input:focus+label span,
+.subjectInput input:valid+label span {
+	transform: translateY(-30px);
+}
+
+.messageInput {
+	display: flex;
+	flex-direction: column;
+}
+
+.messageInput textarea {
+	padding: 5px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	outline: none;
+	font-family: 'Architects Daughter', cursive;
+	border-bottom: 1px solid black;
+}
+
+.button {
+	padding: 10px 0px;
+	margin-top: 15px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.button input {
+	font-size: 15px;
+	padding: 10px 0px;
+	width: 100%;
+	cursor: pointer;
+	font-family: 'Architects Daughter', cursive;
+	color: rgb(255, 255, 255);
+	background-color: #000000;
+	border: 0px;
+}
+
+/*contact section css ends*/
+
+/*footer css starts*/
+
+.footer {
+	height: auto;
+	width: 100%;
+	background-color: black;
+	color: white;
+}
+
+.footer a {
+	color: white;
+}
+
+.footerContent {
+	padding: 10px 0px;
+	width: 80%;
+	margin: auto;
+}
+
+.footerContentDiv1 {
+	text-align: center;
+	padding-top: 6%;
+	height: 350px;
+}
+
+.footerContentDiv1 h3 {
+	color: #676666;
+	font-size: 25px;
+	padding: 20px 0px;
+}
+
+.footerContentDiv1 p {
+	font-size: 45px;
+}
+
+.footerContentDiv2 {
+	height: 350px;
+	padding: 90px 0px;
+	display: flex;
+}
+
+.innerFooterContentDiv2 {
+	width: 33%;
+	padding: 55px 25px
+}
+
+.innerFooterContentDiv2 div {
+	display: flex;
+	padding-bottom: 50px;
+	align-items: center;
+}
+
+#copyrightLine {
+	color: #aeafb6;
+	font-size: 15px;
+}
+
+.innerFooterContentDiv2 p {
+	padding-bottom: 50px;
+	width: 95%;
+	color: #aeafb6;
+	font-size: 20px;
+}
+
+.innerFooterContentDiv2 h1 {
+	font-size: 30px;
+}
+
+.footerLogoImg {
+	width: 45px;
+	border-radius: 50px;
+}
+
+#footerContactDetailDiv {
+	padding-bottom: 35px;
+}
+
+#footerContactDetailDiv i {
+	margin-right: 10px;
+	color: #ffffff;
+}
+
+#footerContactDetailDiv span {
+	font-size: 18px;
+	;
+	color: #aeafb6;
+}
+
+#footerOpeningHourDiv {
+	display: inline;
+}
+
+#footerOpeningHourDiv h4 {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+#footerOpeningHourDiv span {
+	color: #ffffff;
+	font-size: 17px;
+}
+
+.widthSame {
+	width: 33%;
+	text-align: center;
+}
+
+.innerFooterContentDiv3 {
+	display: flex;
+	padding: 35px 0px;
+}
+
+.termsPolicyDiv {
+	text-align: left;
+	font-size: 18px;
+}
+
+.termsPolicyDiv span {
+	padding-right: 8px;
+}
+
+.socialIcons i {
+	font-size: 30px;
+	padding: 0px 10px;
+}
