@@ -1,11 +1,50 @@
 @media only screen and (max-width:499px) {
+	.dishDetails {
+		padding: 10px 0px;
+	}
+
 	.header {
-		background-color: transparent;
+		display: block;
+		background-color: white;
+		color: black;
+		border-bottom-color: black;
+		height: 100vh;
+		/*background-color: transparent;*/
 		border: none;
 	}
 
 	.centerDiv {
-		display: none;
+		width: 100%;
+		/*display: flex;*/ /*while click on menu */
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		height: 100vh;
+		/*display: none;*/
+	}
+
+	.navbar {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.menus {
+		/* color: white; */
+		font-size: 15px;
+		list-style: none;
+		padding: 15px;
+		cursor: pointer;
+		background-color: black;
+		margin: 5px 0px;
+		width: 100%;
+		text-align: center;
+	}
+
+	.menus a{
+		color: white;
+		border-bottom-color: black;
 	}
 
 	#bar {
@@ -13,6 +52,10 @@
 		float: right;
 		padding: 10px;
 		font-size: 25px;
+	}
+
+	#bar .fa-xmark {
+		display: none;
 	}
 
 	.home {
@@ -97,10 +140,6 @@
 		width: 100%;
 		height: auto;
 		margin: 0px;
-	}
-
-	.dishDetails {
-		padding: 0px 0px;
 	}
 
 	.gallery {
@@ -548,7 +587,7 @@
 	}
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:768px) and (max-width:1024px) {
 	.centerDiv {
 		width: 90%;
 	}
@@ -563,7 +602,7 @@
 
 	.home div button {
 		padding: 2px 15px;
-    font-size: 12px;
+		font-size: 12px;
 	}
 
 	.about {
@@ -582,7 +621,7 @@
 
 	.aboutDetail h1 {
 		font-size: 20px;
-    width: 100%;
+		width: 100%;
 	}
 
 	.innerAboutDiv div img {

@@ -3,39 +3,38 @@ const menu = document.getElementById('menu');
 const header = document.getElementById('header');
 const footer = document.getElementById('footer');
 const home = document.getElementById('home');
-window.addEventListener('scroll', changeHeaderColor);
+const menuBar = document.getElementById('bar');
+const menuDiv = document.getElementById('links');
+//window.addEventListener('scroll', changeHeaderColor);
 
-function changeHeaderColor() {
-	let footerTopPosition = footer.getBoundingClientRect().top;
-	let footerBottomPosition = footer.getBoundingClientRect().bottom;
-	let menuTopPosition = menu.getBoundingClientRect().top;
-	let menuBottomPosition = menu.getBoundingClientRect().bottom;
 
-	if (menuTopPosition <= 10 & menuBottomPosition >= 10 || footerTopPosition <= 10 & footerBottomPosition >= 10) {
-		header.style.display = 'block';
-		header.style.backgroundColor = "black";
-		header.style.color = "white";
-		header.style.borderBottomColor = "white";
-
-		let headerAnchorTags = header.getElementsByTagName('a');
-		for (var i = 0; i < headerAnchorTags.length; i++) {
-			headerAnchorTags[i].style.color = "white";
-			headerAnchorTags[i].style.borderBottomColor = "white";
-		}
-	}
-	else {
+function showMenu() {
+	console.log("hey i am showing menu,,,you like to see??")
+	if (header.style.backgroundColor == "transparent" &&
+	menuDiv.style.display == "none") {
 		header.style.backgroundColor = "white";
-		header.style.color = "black";
-		header.style.borderBottomColor = "black";
+		menuDiv.style.display = "flex";
+	} else {
+		header.style.backgroundColor = "transparent";
+		menuDiv.style.display = "none";
+	}
+}
 
-		let headerAnchorTags = header.getElementsByTagName('a');
-		for (var i = 0; i < headerAnchorTags.length; i++) {
-			headerAnchorTags[i].style.color = "black";
-			headerAnchorTags[i].style.borderBottomColor = "black";
-		}
+window.onscroll = hideHeader;
+function hideHeader() {
+	console.log("iamscrolling...")
+	let width = window.innerWidth;
+	console.log(width)
+	if(width <= 768){
+		header.style.height = "auto"
+		//header.style.backgroundColor = "transparent";
+		menuDiv.style.display = "none";
+	}else{
+		menuDiv.style.display = "flex";	
+	}
 	}
 
-}
+//}
 
 const labels = document.querySelectorAll(".contactForm label");
 

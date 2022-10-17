@@ -3,9 +3,13 @@
 	margin: 0px;
 }
 
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
 html {
 	scroll-behavior: smooth;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 body::-webkit-scrollbar {
@@ -37,7 +41,7 @@ a {
 	position: fixed;
 	top: 0px;
 	background-color: white;
-	font-family: 'Splash', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	width: 100%;
 	height: auto;
 	z-index: 1;
@@ -59,7 +63,7 @@ a {
 }
 
 .menus {
-	font-size: 20px;
+	font-size: 15px;
 	list-style: none;
 	padding: 15px;
 	cursor: pointer;
@@ -95,7 +99,7 @@ a {
 .home div {
 	text-align: center;
 	width: 50%;
-	height: 35%;
+	height: auto;
 	background: #a0a2a400;
 	margin: auto;
 	box-shadow: 0px 0px 10px 0px;
@@ -108,7 +112,7 @@ a {
 }
 
 .home div button {
-	font-family: 'Bungee', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	cursor: pointer;
 	padding: 2px 30px;
 	font-size: 20px;
@@ -137,20 +141,20 @@ a {
 }
 
 .aboutDetail h6 {
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	color: #615f5f;
 	font-size: 15px;
 	margin-bottom: 15px;
 }
 
 .aboutDetail p {
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	padding: 10px 0px;
 	font-size: 14px;
 }
 
 .aboutDetail h1 {
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	font-size: 31px;
 	width: 90%;
 }
@@ -174,7 +178,7 @@ a {
 /*menu section css starts*/
 
 .menu {
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	height: auto;
 	width: 100%;
 	text-align: center;
@@ -231,7 +235,7 @@ a {
 .dishDetails button {
 	padding: 15px 10px;
 	background-color: #ffffff;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	border: 0px;
 	color: rgb(0, 0, 0);
 	cursor: pointer;
@@ -243,7 +247,7 @@ a {
 }
 
 .gallery {
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	width: 80%;
 	margin: auto;
 	padding: 60px 0px;
@@ -351,7 +355,7 @@ a {
 /*contact section css starts*/
 
 .contact {
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	height: auto;
 	width: 100%;
 	padding-bottom: 20px;
@@ -441,7 +445,7 @@ a {
 	border-bottom: 1px solid black;
 	border-top: none;
 	outline: none;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	border-right: none;
 	border-left: none;
 }
@@ -480,7 +484,7 @@ a {
 	border-bottom: 1px solid black;
 	border-top: none;
 	outline: none;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	border-right: none;
 	border-left: none;
 }
@@ -518,7 +522,7 @@ a {
 	border-left: none;
 	border-right: none;
 	outline: none;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	border-bottom: 1px solid black;
 }
 
@@ -535,7 +539,7 @@ a {
 	padding: 10px 0px;
 	width: 100%;
 	cursor: pointer;
-	font-family: 'Architects Daughter', cursive;
+	font-family: 'Josefin Sans', sans-serif;
 	color: rgb(255, 255, 255);
 	background-color: #000000;
 	border: 0px;
