@@ -1,0 +1,673 @@
+@media only screen and (max-width:499px) {
+	.header {
+		background-color: transparent;
+		border: none;
+	}
+
+	.centerDiv {
+		display: none;
+	}
+
+	#bar {
+		display: block;
+		float: right;
+		padding: 10px;
+		font-size: 25px;
+	}
+
+	.home {
+		padding-top: 0px;
+		background-position: right;
+	}
+
+	.home div {
+		width: 90%;
+		height: auto;
+		box-shadow: 0px 0px 4px 0px black;
+	}
+
+	.home div h1 {
+		font-size: 30px;
+	}
+
+	.home div p {
+		font-size: 10px;
+	}
+
+	.home div button {
+		padding: 0px 15px;
+		font-size: 10px;
+		margin-top: 10px;
+	}
+
+	.about {
+		padding-top: 20px;
+	}
+
+	#aboutImg {
+		width: 100%;
+	}
+
+	#aboutImg img {
+		box-shadow: 0px 0px 0px 0px;
+		float: unset;
+	}
+
+	.innerAboutDiv {
+		padding: 0px;
+		width: 90%;
+		display: block;
+		margin: auto;
+	}
+
+	.innerAboutDiv div img {
+		width: 100%;
+	}
+
+	.aboutDetail {
+		width: 100%;
+	}
+
+	.menu {
+		background-color: white;
+	}
+
+	.menuHeader h1 {
+		color: black;
+	}
+
+	.menusDiv {
+		width: 90%;
+	}
+
+	.dishDetails div {
+		color: black
+	}
+
+	.dishDetails button {
+		padding: 15px 10px;
+		background-color: black;
+		font-family: 'Architects Daughter', cursive;
+		border: 0px;
+		color: white;
+		cursor: pointer;
+	}
+
+	.dishes img {
+		width: 100%;
+		height: auto;
+		margin: 0px;
+	}
+
+	.dishDetails {
+		padding: 0px 0px;
+	}
+
+	.gallery {
+		padding: 0px 0px;
+	}
+
+	.galleryHeader {
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.items {
+		padding-top: 0px;
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+
+	.item {
+		position: relative;
+		overflow: hidden;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 10px;
+		box-shadow: 0px 0px 0px 0px;
+	}
+
+	.itemContentWrap p {
+		padding-top: 35px;
+	}
+
+	.contact {
+		font-family: 'Architects Daughter', cursive;
+		height: auto;
+		width: 100%;
+		padding-bottom: 0px;
+	}
+
+	.contactHeader {
+		text-align: center;
+		padding: 35px 0px;
+	}
+
+	.contactHeader h1 {
+		font-size: 35px;
+		padding-bottom: 10px;
+		font-weight: 100;
+	}
+
+	.contact .hr {
+		width: 40%;
+	}
+
+	.contactDiv {
+		width: 90%;
+		margin: auto;
+		display: block;
+	}
+
+	iframe {
+		width: 100%;
+	}
+
+	.contactFormDiv {
+		width: 100%;
+		height: 525px;
+	}
+
+	.contactForm {
+		background-color: #ffffff;
+		padding: 0px;
+	}
+
+	.nameInputs {
+		display: block;
+	}
+
+	.nameInputs div {
+		position: relative;
+		width: 100%;
+		display: block;
+		flex-direction: column;
+		padding: 20px 0px;
+	}
+
+	.messageInput textarea {
+		padding: 0px;
+	}
+
+	.footer {
+		height: auto;
+		width: 100%;
+		background-color: black;
+		color: white;
+	}
+
+	.footerContent {
+		padding: 10px 0px;
+		width: 90%;
+		margin: auto;
+	}
+
+	.footerContentDiv1 {
+		text-align: center;
+		padding-top: 6%;
+		height: auto;
+	}
+
+	.footerContentDiv1 h3 {
+		color: #676666;
+		font-size: 15px;
+		padding: 10px 0px;
+	}
+
+	.footerContentDiv1 p {
+		font-size: 25px;
+	}
+
+	.footerContentDiv2 {
+		height: auto;
+		padding: 0px 0px;
+		display: block;
+	}
+
+	.innerFooterContentDiv2 {
+		width: 100%;
+		padding: 20px 0px;
+	}
+
+	.innerFooterContentDiv2 div {
+		display: flex;
+		padding-bottom: 15px;
+		align-items: center;
+	}
+
+	.innerFooterContentDiv2 p {
+		padding-bottom: 10px;
+		width: 100%;
+		color: #aeafb6;
+		font-size: 20px;
+	}
+
+	#footerContactDetailDiv {
+		padding-bottom: 10px;
+	}
+
+	.innerFooterContentDiv3 {
+		display: block;
+		padding: 25px 0px;
+	}
+
+	.widthSame {
+		width: 100%;
+		padding: 10px 0px;
+		text-align: center;
+	}
+
+	.termsPolicyDiv {
+		text-align: center;
+	}
+}
+
+@media only screen and (min-width:500px) and (max-width:767px) {
+	.header {
+		background-color: transparent;
+		border: none;
+	}
+
+	.centerDiv {
+		display: none;
+	}
+
+	#bar {
+		display: block;
+		float: right;
+		padding: 10px;
+		font-size: 25px;
+	}
+
+	.home {
+		padding-top: 0px;
+		background-position: right;
+	}
+
+	.home div {
+		width: 90%;
+		height: auto;
+		box-shadow: 0px 0px 4px 0px black;
+	}
+
+	.home div h1 {
+		font-size: 30px;
+	}
+
+	.home div p {
+		font-size: 10px;
+	}
+
+	.home div button {
+		padding: 0px 15px;
+		font-size: 10px;
+		margin-top: 10px;
+	}
+
+	.about {
+		padding-top: 20px;
+	}
+
+	#aboutImg {
+		width: 100%;
+	}
+
+	#aboutImg img {
+		box-shadow: 0px 0px 0px 0px;
+		float: unset;
+	}
+
+	.innerAboutDiv {
+		padding: 0px;
+		width: 90%;
+		display: block;
+		margin: auto;
+	}
+
+	.innerAboutDiv div img {
+		width: 60%;
+	}
+
+	.aboutDetail {
+		width: 100%;
+	}
+
+	.aboutDetail h6 {
+		font-size: 10px;
+	}
+
+	.aboutDetail h1 {
+		font-size: 20px;
+	}
+
+	.aboutDetail p {
+		font-size: 10px;
+	}
+
+	.menu {
+		background-color: white;
+	}
+
+	.menuHeader h1 {
+		color: black;
+	}
+
+	.menusDiv {
+		width: 90%;
+	}
+
+	.dish {
+		width: 40%;
+		margin: 5px;
+	}
+
+	.dishDetails div {
+		color: black;
+		font-size: 12px;
+	}
+
+	.dishDetails button {
+		font-size: 9px;
+		padding: 8px 5px;
+		background-color: black;
+		font-family: 'Architects Daughter', cursive;
+		border: 0px;
+		color: white;
+		cursor: pointer;
+	}
+
+	.dishes img {
+		width: 100%;
+		height: auto;
+		margin: 0px;
+	}
+
+	.dishDetails {
+		padding: 0px 0px;
+	}
+
+	.gallery {
+		padding: 0px 0px;
+	}
+
+	.galleryHeader {
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+
+	.items {
+		padding-top: 0px;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.item {
+		position: relative;
+		overflow: hidden;
+		margin: 5px;
+		/* margin-right: 0px; */
+		/* margin-top: 0px; */
+		/* margin-bottom: 10px; */
+		box-shadow: 0px 0px 0px 0px;
+	}
+
+	.itemContentWrap p {
+		padding-top: 35px;
+	}
+
+	.contact {
+		font-family: 'Architects Daughter', cursive;
+		height: auto;
+		width: 100%;
+		padding-bottom: 0px;
+	}
+
+	.contactHeader {
+		text-align: center;
+		padding: 35px 0px;
+	}
+
+	.contactHeader h1 {
+		font-size: 35px;
+		padding-bottom: 10px;
+		font-weight: 100;
+	}
+
+	.contact .hr {
+		width: 40%;
+	}
+
+	.contactDiv {
+		width: 90%;
+		margin: auto;
+		display: block;
+	}
+
+	iframe {
+		width: 100%;
+	}
+
+	.contactFormDiv {
+		width: 100%;
+		height: 525px;
+	}
+
+	.contactForm {
+		background-color: #ffffff;
+		padding: 0px;
+	}
+
+	.nameInputs {
+		display: block;
+	}
+
+	.nameInputs div {
+		position: relative;
+		width: 100%;
+		display: block;
+		flex-direction: column;
+		padding: 20px 0px;
+	}
+
+	.messageInput textarea {
+		padding: 0px;
+	}
+
+	.footer {
+		height: auto;
+		width: 100%;
+		background-color: black;
+		color: white;
+	}
+
+	.footerContent {
+		padding: 10px 0px;
+		width: 90%;
+		margin: auto;
+	}
+
+	.footerContentDiv1 {
+		text-align: center;
+		padding-top: 6%;
+		height: auto;
+	}
+
+	.footerContentDiv1 h3 {
+		color: #676666;
+		font-size: 15px;
+		padding: 10px 0px;
+	}
+
+	.footerContentDiv1 p {
+		font-size: 25px;
+	}
+
+	.footerContentDiv2 {
+		height: auto;
+		padding: 0px 0px;
+		display: block;
+	}
+
+	.innerFooterContentDiv2 {
+		width: 100%;
+		padding: 20px 0px;
+	}
+
+	.innerFooterContentDiv2 div {
+		display: flex;
+		padding-bottom: 15px;
+		align-items: center;
+	}
+
+	.innerFooterContentDiv2 p {
+		padding-bottom: 10px;
+		width: 100%;
+		color: #aeafb6;
+		font-size: 20px;
+	}
+
+	#footerContactDetailDiv {
+		padding-bottom: 10px;
+	}
+
+	.innerFooterContentDiv3 {
+		display: block;
+		padding: 25px 0px;
+	}
+
+	.widthSame {
+		width: 100%;
+		padding: 10px 0px;
+		text-align: center;
+	}
+
+	.termsPolicyDiv {
+		text-align: center;
+	}
+}
+
+@media only screen and (min-width:768px) {
+	.centerDiv {
+		width: 90%;
+	}
+
+	.home {
+		padding-top: 0px;
+	}
+
+	.home div h1 {
+		font-size: 50px;
+	}
+
+	.home div button {
+		padding: 2px 15px;
+    font-size: 12px;
+	}
+
+	.about {
+		padding-top: 0px;
+	}
+
+	.innerAboutDiv {
+		padding: 20px 0px;
+		width: 90%;
+	}
+
+	.aboutDetail h6 {
+		font-size: 10px;
+		margin-bottom: 10px;
+	}
+
+	.aboutDetail h1 {
+		font-size: 20px;
+    width: 100%;
+	}
+
+	.innerAboutDiv div img {
+		width: 80%;
+	}
+
+	.menuHeader {
+		padding: 10px 0px;
+	}
+
+	.menuHeader h1 {
+		padding-bottom: 10px;
+	}
+
+	.menusDiv {
+		padding: 10px 0px;
+	}
+
+	.dishes img {
+		width: 260px;
+		height: 220px;
+		margin: 10px;
+	}
+
+	.dishDetails {
+		padding: 0px 10px;
+	}
+
+	.dishDetails h3 {
+		font-size: 15px;
+	}
+
+	.gallery {
+		width: 90%;
+		padding: 0px 0px;
+	}
+
+	.items {
+		padding-top: 0px;
+	}
+
+	.contact {
+		padding: 20px 0px;
+	}
+
+	.contactDiv {
+		width: 90%;
+	}
+
+	.contactForm {
+		padding: 25px;
+	}
+
+	.dishDetails p {
+		font-size: 10px;
+	}
+
+	.footerContent {
+		padding: 0px 0px;
+		width: 90%;
+	}
+
+	.footerContentDiv1 h3 {
+		font-size: 22px;
+		padding: 10px 0px;
+	}
+
+	.footerContentDiv1 p {
+		font-size: 35px;
+	}
+
+	.footerContentDiv1 h3 {
+		font-size: 22px;
+		padding: 10px 0px;
+	}
+
+	.footerContentDiv2 {
+		padding: 0px 0px;
+	}
+
+	.innerFoooterContentDiv2 {
+		padding: 15px 0px;
+	}
+
+	#footerContactDetailDiv {
+		padding-bottom: 15px;
+	}
+}

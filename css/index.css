@@ -17,6 +17,10 @@ a {
 	color: black;
 }
 
+#bar {
+	display: none;
+}
+
 #order {
 	width: 25%;
 	height: 100vh;
